@@ -1,6 +1,6 @@
 
 # Minecraft Server Control Panel
-***A simple MC server control panel made by The Doctor***
+***A simple MC server control panel made by The Doctor.***
 ***
 ## Manual:
 Requirements:<br/>
