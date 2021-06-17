@@ -1,0 +1,19 @@
+{
+  "name": "MinecraftControlPanel",
+  "version": "1.0.0",
+  "description": "Minecraft control panel project :)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "CodeWithTheDoctor",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
