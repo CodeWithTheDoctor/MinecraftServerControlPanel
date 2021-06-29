@@ -7,7 +7,9 @@ const socket = require('socket.io');
 const app = express();
 const emitter = new EventEmitter();
 const PORT = process.env.PORT || 5000;
-const backend = app.listen(PORT,'0.0.0.0', () => console.log(`Server running on ${PORT}. \nTo open the control panel, goto http://localhost:${PORT} in your browser`))
+const backend = app.listen(PORT,'0.0.0.0', () => console.log(`Server running on ${PORT}. 
+												\nTo open the control panel, goto \x1b[36mhttp://localhost:${PORT}\x1b[0m in your browser.
+												\nThis control panel was made by \x1b[33mCodeWithTheDoctor\x1b[0m.`))
 let server = undefined;
 
 //Static files
