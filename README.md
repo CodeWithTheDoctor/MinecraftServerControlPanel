@@ -5,14 +5,14 @@
 ## Manual:
 Requirements:<br/>
  -- [Node.js (nodejs.org)](https://nodejs.org/en/) <br>
- -- Latest version of Java.
+ -- Latest version of [Java](https://www.java.com/en/download/).
  
 - After you install the requirements, on your desktop or any other place, clone this repository.
 If you're using git bash, then the command would be:
 
 `git clone https://github.com/CodeWithTheDoctor/MinecraftServerControlPanel` 
 
-- Once cloned, head into the `MinecraftServerControlPanel` folder, and install the node dependencies using: 
+- Once cloned open a console(Such as CMD, powershell, bash or Terminal) in the `MinecraftServerControlPanel` folder, and install the node dependencies using: 
 ```npm install```
 
 - To run the control panel, execute 
