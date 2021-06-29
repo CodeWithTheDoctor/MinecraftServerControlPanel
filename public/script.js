@@ -3,8 +3,9 @@ const socket = io.connect("http://localhost:5000");
 //Queries
 var start = document.getElementById('start');
     stop = document.getElementById('stop'),
-    console = document.getElementById('console');
+    logconsole = document.getElementById('console');
 
+// Auto Scroll
 
 //Event emitters
 start.addEventListener('click', () => {
@@ -17,5 +18,6 @@ stop.addEventListener('click', ()=> {
 
 //Socket Event Listeners
 socket.on('consoleMessage',data=>{
-    console.innerHTML += "<p>" + data + "</p>";
+    logconsole.innerHTML += "<p>" + data + "</p>";
+    logconsole.scrollTop = logconsole.scrollHeight;
 })

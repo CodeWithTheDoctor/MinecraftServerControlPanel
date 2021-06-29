@@ -24,7 +24,7 @@ io.on('connection', socket=> {
 		if(!server) {
 			console.log("Startin the servah");
 			io.sockets.emit("consoleMessage","Starting the Minecraft server...");
-			server = cp.spawn('C:/Program Files/Java/jdk-16.0.1/bin/java.exe', ['-Xmx1024M', '-Xms1024M', '-jar', 'server.jar', 'nogui'], {
+			server = cp.spawn('java', ['-Xmx1024M', '-Xms1024M', '-jar', 'server.jar', 'nogui'], {
 				cwd: "server"
 			});
 
