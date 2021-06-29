@@ -7,7 +7,7 @@ const socket = require('socket.io');
 const app = express();
 const emitter = new EventEmitter();
 const PORT = process.env.PORT || 5000;
-const backend = app.listen(PORT,'0.0.0.0', () => console.log(`Server running on ${PORT}.`))
+const backend = app.listen(PORT,'0.0.0.0', () => console.log(`Server running on ${PORT}. \nTo open the control panel, goto http://localhost:${PORT} in your browser`))
 let server = undefined;
 
 //Static files
